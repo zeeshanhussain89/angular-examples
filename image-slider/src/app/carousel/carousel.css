@@ -1,0 +1,33 @@
+.carousel-image {
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+image {
+  display: inline-block;
+}
+
+.carousel-content {
+  max-width: 90%;
+  height: auto;
+  margin: 100px auto;
+}
+
+.carousel-slider {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slider {
+  cursor: pointer;
+  width: 8px;
+  display: inline-block;
+  height: 8px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-left: 4px;
+  background-color: black;
+}

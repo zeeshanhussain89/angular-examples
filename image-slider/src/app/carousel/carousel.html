@@ -1,0 +1,10 @@
+<div>
+  <!-- <img class="carousel-content" [src]="source()" alt="" /> -->
+  <div class="carousel-image" [style]="{ 'background-image': carouselImageStyle }"></div>
+  <div class="carousel-slider">
+    @for (image of carouselImages; track image.id) {
+    <!-- <app-slider (click)="onSliderClick(image.id)" /> -->
+    <span class="slider" (click)="onSliderClick(image.id)"></span>
+    }
+  </div>
+</div>
