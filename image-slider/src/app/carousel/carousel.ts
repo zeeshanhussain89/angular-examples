@@ -1,9 +1,11 @@
 import { Component, Input, input, OnInit } from '@angular/core';
+import { DefaultSrcPipe } from '../default-src-pipe';
 
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.html',
   styleUrl: './carousel.css',
+  imports: [DefaultSrcPipe],
 })
 export class Carousel implements OnInit {
   @Input({ required: true }) carouselImages!: {

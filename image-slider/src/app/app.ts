@@ -1,7 +1,5 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
 import { Carousel } from './carousel/carousel';
-import { Slider } from './carousel/slider/slider';
 
 @Component({
   selector: 'app-root',
@@ -30,6 +28,10 @@ export class App {
     {
       id: 5,
       src: 'assets/image-5.jpeg',
+    },
+    {
+      id: 6,
+      src: '',
     },
   ];
 }
