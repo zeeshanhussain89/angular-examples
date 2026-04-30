@@ -1,0 +1,8 @@
+<p>{{ accessToken() }}</p>
+<h2>Your email is: {{ email() }}</h2>
+<p>Your roles are:</p>
+<ul>
+  @for(role of roles(); track role.name) {
+  <li>{{ role.displayName }}</li>
+  }
+</ul>

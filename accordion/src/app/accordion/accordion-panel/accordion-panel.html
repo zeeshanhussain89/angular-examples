@@ -1,0 +1,13 @@
+<div class="panel">
+  <div class="panel-title">
+    <ng-content select="app-accordion-title"></ng-content>
+    <button (click)="onContentToggle()">
+      {{ isExpanded === true ? '^' : 'v' }}
+    </button>
+  </div>
+  @if(isExpanded) {
+  <div class="panel-content">
+    <ng-content select="app-accordion-content"></ng-content>
+  </div>
+  }
+</div>

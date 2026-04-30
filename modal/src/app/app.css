@@ -1,0 +1,9 @@
+.dialog-footer {
+  display: flex;
+  gap: 1rem;
+  justify-content: right;
+}
+
+button {
+  cursor: pointer;
+}

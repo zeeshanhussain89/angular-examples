@@ -1,0 +1,38 @@
+.panel {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.panel-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-title,
+.panel-content {
+  border-bottom: 1px solid black;
+}
+
+.panel-title {
+  padding: 1rem;
+  background-color: rgba(112, 128, 144, 0.385);
+}
+
+.panel-content {
+  padding: 2rem;
+  background-color: rgba(211, 211, 211, 0.453);
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.panel:last-child {
+  border-bottom: none;
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
+}
+
+button {
+  font-size: 1.2rem;
+  width: 50px;
+}

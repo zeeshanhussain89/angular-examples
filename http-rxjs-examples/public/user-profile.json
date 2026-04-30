@@ -1,0 +1,19 @@
+{
+    "defaultOrgId": "15e3a97b-449e-4f24-aec7-0a72613e261d",
+    "isFederated": true,
+    "linkedUserIdAccount": "test@omnissa.com",
+    "customerNumber": "1374367766",
+    "locale": "US",
+    "language": "en",
+    "alternativeEmail": "sdsda@gmail.com",
+    "userId": "123ab2fbc-2342-342e-ae17-b7fef0941e61:aee05d07-d43d-4ec6-a156-a04d8234233",
+    "username": "test@omnissa.com",
+    "acct": "test@omnissa.com",
+    "email": "test@omnissa.com",
+    "preferredTheme": "Light",
+    "metadata": null,
+    "createdAt": 1718868681353,
+    "isGlobalMotionEffectDisabled": false,
+    "shouldHideWhatsNewSection": false,
+    "sessionLimit": null
+}

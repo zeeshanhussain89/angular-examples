@@ -1,0 +1,20 @@
+@if(!isModalClosed) {
+<app-dialog [closable]="true" (closed)="onModalClose($event)">
+  <div class="header">{{ modalData().header }}</div>
+  <div class="content">
+    <textarea
+      name="text-content"
+      id="text-content"
+      rows="10"
+      [(ngModel)]="enteredContent"
+    ></textarea>
+  </div>
+  <div class="footer dialog-footer">
+    <button class="btn" (click)="onCancel()">Cancel</button>
+    <button class="btn" (click)="onSave()">Save</button>
+  </div>
+</app-dialog>
+} @else {
+<button (click)="onModalShow()">Show Modal</button>
+}
+<input type="text" />

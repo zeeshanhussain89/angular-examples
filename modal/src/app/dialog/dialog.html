@@ -1,0 +1,19 @@
+@if(!isClosed()) {
+<div class="dialog-backdrop">
+  <div class="dialog" #dialog>
+    <div class="header">
+      <ng-content select=".header"></ng-content>
+      @if(closable()) {
+      <button (click)="onClose()">X</button>
+      }
+    </div>
+    <div class="content">
+      <ng-content select=".content"></ng-content>
+    </div>
+    <div class="footer">
+      <ng-content select=".footer"></ng-content>
+    </div>
+  </div>
+</div>
+
+}

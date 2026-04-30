@@ -1,0 +1,67 @@
+.dialog-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(70, 131, 180, 0.546);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog {
+  width: 40%;
+  margin: 200px auto;
+  border: 2px solid black;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header,
+.content,
+.footer {
+  padding: 1rem;
+}
+
+.content {
+  min-height: 300px;
+  max-height: 600px;
+  overflow: scroll;
+}
+
+.header,
+.content {
+  border-bottom: 2px solid black;
+}
+
+/* #dialog-content {
+  width: 100%;
+  border: 2px solid black;
+} */
+
+.controls {
+  display: flex;
+  gap: 2rem;
+  justify-content: right;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* .btn {
+  padding: 10px;
+  width: 15%;
+  border-radius: 10px;
+} */
+
+.hidden {
+  display: none;
+}
